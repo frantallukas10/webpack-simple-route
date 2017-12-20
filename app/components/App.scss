@@ -1,0 +1,27 @@
+.app {
+    nav {
+        clear: both;
+        float: left;
+        margin-bottom: 20px;
+
+        a {
+            display: inline-block;
+            list-style: none;
+            float: left;
+            width: 120px;
+            margin-left: 15px;
+            border-top: 2px solid #000;
+            padding-top: 1px;
+
+        }
+
+        a:hover, .active {
+            border-top: 3px solid #555;
+            padding-top: 0px;
+        }
+    }
+    section {
+        clear: both;
+        float: left;
+    }
+}
